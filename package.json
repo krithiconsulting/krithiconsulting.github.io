@@ -1,0 +1,22 @@
+{
+  "name": "kcwebsite",
+  "version": "1.0.0",
+  "description": "Krithi Consulting Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "deploy": "gh-pages -d .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/krithiconsulting/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/krithiconsulting/website#readme",
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "webpack": "^1.13.3"
+  }
+}
