@@ -845,6 +845,14 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 9px 29px -9px rgba(0, 0, 0, 0.13);
 }
 
+.training-inner h4 {
+  font: bold;
+}
+.training-inner p {
+  font-size: 16px;
+  margin-left:2em;
+}
+
 .sidebar {
   float: left;
   width: 100%;
